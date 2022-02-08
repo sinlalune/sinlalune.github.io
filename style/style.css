@@ -1,13 +1,4 @@
-@font-face {
-  font-family: "Rowdies";
-  src: url("/fonts/Rowdies/Rowdies-regular.ttf") format("ttf");
-	
-}
-@font-face {
-  font-family: "Rowdies Bold";
-  src: url("/fonts/Rowdies/Rowdies-Bold.ttf") format("ttf");
-	
-}
+
 
 p {
   color: red;
