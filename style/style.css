@@ -1,7 +1,14 @@
 @font-face {
   font-family: "Rowdies";
   src: url("/fonts/Rowdies/Rowdies-regular.ttf") format("ttf");
+	
 }
+@font-face {
+  font-family: "Rowdies Bold";
+  src: url("/fonts/Rowdies/Rowdies-Bold.ttf") format("ttf");
+	
+}
+
 p {
   color: red;
   width: 500px;
@@ -9,6 +16,11 @@ p {
   font-family: "Rowdies", cursive;
 }
 
+h1 {
+	color: green;
+	width: 10px;
+	font-family: "Rowdies Bold", cursive;
+}
 
 
 	
