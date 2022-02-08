@@ -2,16 +2,16 @@
 
 p {
   color: red;
-  width: 500px;
+  width: 10px;
   border: 1px solidblack;
   font-family: "Rowdies", cursive;
 }
 
 h1 {
 	color: green;
-	width: 500px;
+	width: 10px;
 	font-family: "Rowdies", cursive;
-	font-weight: 700;
+	font-weight: Bold;
 }
 
 
