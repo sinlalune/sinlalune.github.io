@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Rowdies";
+  src: url("/fonts/Rowdies/Rowdies-regular.ttf") format("ttf");
+}
+p {
+  color: red;
+  width: 500px;
+  border: 1px solidblack;
+  font-family: "Rowdies", cursive;
+}
+
+
+
+	
+	
