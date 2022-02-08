@@ -9,8 +9,9 @@ p {
 
 h1 {
 	color: green;
-	width: 10px;
-	font-family: "Rowdies Bold", cursive;
+	width: 500px;
+	font-family: "Rowdies", cursive;
+	font-weight: 700;
 }
 
 
