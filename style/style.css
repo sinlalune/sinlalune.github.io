@@ -13,6 +13,9 @@ h1 {
 	background-color: black;
 	border: 2px ;
 	border-color: #7FFF00;
+	height : 100px;
+	width: 300px;
+	padding : 50 50 50 50;
 }
 
 
