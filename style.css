@@ -1,0 +1,221 @@
+body {
+    font-family: 'Roboto';
+    font-style: Thin 400;    
+    background-color: #F5F6FA;
+    font-size: 14PX;
+    height:100vh;
+
+}
+
+#add_message {
+    display: flex;
+    justify-content:left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family:'Press Start 2P', cursive;
+    background-color: rgba(238, 214, 206, 0);
+    border: 0ch;
+}
+
+#left-compt {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(174, 174, 174, 0.366);
+}
+
+.icon {
+    width: 20%;
+    height: 20%;
+    margin: 2%;
+}
+#header {
+ background-color: blanchedalmond;
+    display: flex;
+    justify-content: flex-start;
+}
+h6 {
+    font-weight: bold;
+    font-family:'Press Start 2P', cursive;
+     font-size: 14PX;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 80%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    justify-content: start;
+    color: rgb(255, 255, 255);
+    
+}
+
+.man {
+    width: 60px;
+    height: 60px;
+  
+    padding-right: 5%;
+
+}
+.trash {
+    width: 35px;
+    height: 35px;
+    padding-left: 5%;
+   
+}
+
+#boite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.ligne {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    width:50%; 
+    background-color: rgb(192, 240, 255);
+    border:1px solid rgba(255, 255, 255, 0.381);
+    padding: 2%;
+    
+}
+
+.ligne:hover {
+    background-color: rgb(255, 213, 252);
+}
+
+
+.message {
+    
+    text-align: left;  
+    width: 100%
+    
+}
+
+#compteur {
+    
+    right : 90%;
+    text-align: left;
+    
+    color: #F5F6FA;
+    font-family:'Press Start 2P', cursive;
+}
+
+#left-compt {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#add_message {
+    display: flex;
+    justify-content:left;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family:'Press Start 2P', cursive;
+   
+}
+#search {
+    width :60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:'Press Start 2P', cursive;
+    background-color: #f5f6fa00;
+    color :rgb(192, 240, 255);
+    border:2px solid rgb(192, 240, 255);
+}
+#search:hover {
+    width :60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family:'Press Start 2P', cursive;
+    background-color: #f5f6fa00;
+    color :rgb(255, 213, 252);
+    border:2px solid rgb(255, 213, 252);
+}
+
+#author {
+    font-family:'Press Start 2P', cursive;
+    width: 20%;
+    background-color: #f5f6fa00;
+    color :rgb(192, 240, 255);
+    border:2px solid rgb(192, 240, 255);
+}
+
+#author:hover {
+    font-family:'Press Start 2P', cursive;
+    width: 20%;
+    background-color: #f5f6fa00;
+    color :rgb(255, 213, 252);
+    border:2px solid rgb(255, 213, 252);
+}
+
+#add {
+    color :rgb(192, 240, 255);
+    border:2px solid rgb(192, 240, 255);
+    background-color: #f5f6fa00;
+    font-family:'Press Start 2P', cursive;
+    
+}
+
+#add:hover {
+    color :rgb(255, 213, 252);
+    border:2px solid rgb(255, 213, 252);
+    background-color: #f5f6fa00;
+    font-family:'Press Start 2P', cursive;
+    
+}
+
+
+#search0 {
+    width: 20%;
+    margin: 1%;
+    color :rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+    background-color: #f5f6fa00;
+    font-family:'Press Start 2P', cursive;
+    
+}
+
+#filter:hover {
+    width: 20%;
+    margin-left: 5%;
+    color : blanchedalmond;
+    border:2px solid blanchedalmond;
+    background-color: #f5f6fa00;
+    font-family:'Press Start 2P', cursive;}
+
+
+#filter {
+    width: 20%;
+    margin-left: 5%;
+    color :rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+    background-color: #f5f6fa00;
+    font-family:'Press Start 2P', cursive;
+    
+}
+
+#search0:hover {
+    color :blanchedalmond;
+    border:2px solid blanchedalmond;
+    background-color: #f5f6fa00;
+    font-family:'Press Start 2P', cursive;
+
+}
+
+.icon {
+    width: 20%;
+    height: 20%;
+}
+#header {
+    display: flex;
+    justify-content: flex-start;
+}

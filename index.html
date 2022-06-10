@@ -1,14 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My test page</title>
-	<link href="style/style.css" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet">
-	  <script src="/scripts/script.js" defer></script>
-  </head>
-  <body>
-	<h1> SIN LA LUNE !</h1>
-</html>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+    <div id="boite">
+     
+        <div class="ligne" id="header">
+            <img src="002-pattern.png" class='icon'alt="">
+            <img src="003-japanese.png" class='icon' alt="">
+            
+        </div>
+        <div class="ligne" id="left-compt">
+            <span id="compteur"> Message total : 0 </span>
+            <input id='filter'type="text" name="message" value="">
+            <input id='search0' type="button" value="search">
+        </div>
+        <div class="ligne" id="add_message">
+            <input id='author'type="text" name="message" value="Your name">
+            <input id='search'type="text" name="message" value="Your message">
+            <input id='add' type="button" value="Add">
+        </div>
+
+        <!-- /* M1 */ -->
+        <div class="ligne">
+        <img class="man"
+        src="man.png"
+        alt="man">
+            <div class="message">
+            <h6 class="message_author">Julien Touret</h6>
+            <p class="text-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        <img class="trash"
+        src="trash-bin.png"
+        alt="trash">
+        </div>
+
+         <!-- /* M1 */ -->
+        <div class="ligne">
+        <img class="man"
+        src="man_2.png"
+        alt="man">
+            <div class="message">
+            <h6 class="message_author">Laurant Pascal</h6>
+            <p class="text-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+        <img class="trash"
+        src="trash-bin.png"
+        alt="trash">
+        </div>
+        
+       
+
+         <!-- /* M1 */ -->
+         <div class="ligne">
+            <img class="man"
+            src="man_3.png"
+            alt="man">
+                <div class="message">
+                <h6 class="message_author">Corine Diacre</h6>
+                <p class="text-message">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            <img class="trash"
+            src="trash-bin.png"
+            alt="trash">
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
